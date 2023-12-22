@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-module-federation",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "start:all": "npm run start -workspaces",
+    "start:admin": "npm run start -w admin",
+    "start:shop": "npm run start -w shop",
+    "start:host": "npm run start -w host"
+  }
+}
