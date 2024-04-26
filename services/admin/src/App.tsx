@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App" data-testid='app'>
-      Admin module
+      <h1>Admin module</h1>
       <Outlet />
     </div>
   );

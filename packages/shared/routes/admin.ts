@@ -1,3 +1,4 @@
-export const aboutRoutes = {
-  about: '/admin/about'
+export const adminRoutes = {
+  about: '/admin/about',
+  adminHome: '/admin'
 }
